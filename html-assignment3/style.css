@@ -10,6 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    background-color: black;
 }
 
 .navbar-brand{
@@ -59,32 +60,38 @@ a:hover{
 /* Main Tile */
 
 .home h1{
-    color: aliceblue;
-    z-index: 10;
+    /* color: aliceblue; */
+    /* z-index: 10; */
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%);
+    position: center;
+    /* top: 80%; */
+    /* left: 50%; */
+    /* transform: translate(-50%); */
     font-family: 'Times New Roman', Times, serif;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 100;
+    /* background-color: black; */
+}
+
+.home img{
+    width: 100%;
+    align-items: center;
 }
 
 /* Featured Shows */
 
 .featured-month {
-    border: solid aqua 5px;
+    /* border: solid aqua 5px; */
     border-radius: 2px;
-    background-color: rgb(2, 44, 51);
+    background-color: black;
     color: aquamarine;
-    width: 800px;
+    width: 100;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(196px);
+    /* transform: translate(196px); */
     font-size: 10px;
 }
 
@@ -92,12 +99,14 @@ a:hover{
     display: grid;
     grid-template-columns: 800px;
     justify-content: center;
+    align-items: center;
 }
 
 .shows{
     border: solid gray 2px;
     border-radius: 2px;
     background-color: rgb(224, 224, 224);
+    align-items: center;
 }
 
 .thumbnail{
@@ -110,6 +119,13 @@ a:hover{
     left: 500px;
     width: 300px;
 
+}
+
+.show-name{
+    display: inline-block;
+    position: absolute;
+    left: 500px;
+    width: 300px;
 }
 
 .show-button{
